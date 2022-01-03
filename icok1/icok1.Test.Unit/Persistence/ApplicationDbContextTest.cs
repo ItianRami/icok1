@@ -18,6 +18,4 @@ namespace icok1.Test.Unit.Persistence
         //}
     }
 
-    
-
 }
