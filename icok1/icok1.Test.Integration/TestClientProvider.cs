@@ -5,19 +5,19 @@ using System.Net.Http;
 
 namespace icok1.Test.Integration
 {
-    public class TestClientProvider
-    {
-        public HttpClient Client { get; private set; }
+    //public class TestClientProvider
+    //{
+    //    public HttpClient Client { get; private set; }
 
-        public TestClientProvider()
-        {
-            var server = new TestServer(new WebHostBuilder()
-                .UseContentRoot(Directory.GetCurrentDirectory())
-                .UseStartup<Startup>());
+    //    public TestClientProvider()
+    //    {
+    //        var server = new TestServer(new WebHostBuilder()
+    //            .UseContentRoot(Directory.GetCurrentDirectory())
+    //            .UseStartup<Startup>());
 
-            Client = server.CreateClient();
+    //        Client = server.CreateClient();
 
 
-        }
-    }
+    //    }
+    //}
 }

@@ -17,4 +17,6 @@ namespace icok1
                     webBuilder.UseStartup<Startup>();
                 });
     }
+
+    //public partial class Program { }
 }
