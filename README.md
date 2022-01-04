@@ -1,19 +1,19 @@
-## ICOK (Ice Cream Orders Kata)
-# Decision record template by Rami Mohsen
+# ICOK (Ice Cream Orders Kata)
+## Decision record template by Rami Mohsen
 
-# ADR
+## ADR
 
-## Status: 70% done (in progress project)
+### Status: 70% done (in progress project)
 
-## Context
+### Context
 
 Active directory, Integration tests and pipeline
 
-## Decision
+### Decision
 
 What is the change that we're proposing and/or doing?
 
-## Consequences
+### Consequences
 
 CI/CD provides more flexibility on productivity.
 Active directory will provide security in a low cost.
