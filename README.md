@@ -1,5 +1,5 @@
 # ICOK (Ice Cream Orders Kata)
-## Decision record template by Rami Mohsen
+Decision record template by Rami Mohsen
 
 ## ADR
 
