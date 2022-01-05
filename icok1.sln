@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "icok1", "icok1\icok1\icok1.csproj", "{848FF6A6-4DFB-456B-BD38-E67DF92DA8C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "icok1", "icok1\icok1\icok1.csproj", "{848FF6A6-4DFB-456B-BD38-E67DF92DA8C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "icok1.Domain", "icok1\icok1.Domain\icok1.Domain.csproj", "{3B4D82F5-5CE3-4E0F-A42B-C6FA45BFF737}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "icok1.Domain", "icok1\icok1.Domain\icok1.Domain.csproj", "{3B4D82F5-5CE3-4E0F-A42B-C6FA45BFF737}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "icok1.Infrastructure", "icok1\icok1.Infrastructure\icok1.Infrastructure.csproj", "{9C06A06D-C801-4F45-8F7D-114C1D791DC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "icok1.Infrastructure", "icok1\icok1.Infrastructure\icok1.Infrastructure.csproj", "{9C06A06D-C801-4F45-8F7D-114C1D791DC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "icok1.Persistence", "icok1\icok1.Persistence\icok1.Persistence.csproj", "{7099C649-8F7C-4E74-A325-EA9663CBBD40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "icok1.Persistence", "icok1\icok1.Persistence\icok1.Persistence.csproj", "{7099C649-8F7C-4E74-A325-EA9663CBBD40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "icok1.Service", "icok1\icok1.Service\icok1.Service.csproj", "{248A34E2-0407-4134-A815-5F54CB20D8EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "icok1.Service", "icok1\icok1.Service\icok1.Service.csproj", "{248A34E2-0407-4134-A815-5F54CB20D8EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "icok1.Test.Integration", "icok1\icok1.Test.Integration\icok1.Test.Integration.csproj", "{5D5CEAC4-38C1-40EC-9BA8-C4818682F486}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "icok1.Test.Integration", "icok1\icok1.Test.Integration\icok1.Test.Integration.csproj", "{5D5CEAC4-38C1-40EC-9BA8-C4818682F486}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "icok1.Test.Unit", "icok1\icok1.Test.Unit\icok1.Test.Unit.csproj", "{2200EB06-E325-4806-9EF7-F0D8108013D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "icok1.Test.Unit", "icok1\icok1.Test.Unit\icok1.Test.Unit.csproj", "{2200EB06-E325-4806-9EF7-F0D8108013D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "icok1.RecordsGenerator", "icok1.RecordsGenerator\icok1.RecordsGenerator.csproj", "{D0286D23-EBF6-45F3-B38F-36B7EA23EEFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{2200EB06-E325-4806-9EF7-F0D8108013D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2200EB06-E325-4806-9EF7-F0D8108013D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2200EB06-E325-4806-9EF7-F0D8108013D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0286D23-EBF6-45F3-B38F-36B7EA23EEFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0286D23-EBF6-45F3-B38F-36B7EA23EEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0286D23-EBF6-45F3-B38F-36B7EA23EEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0286D23-EBF6-45F3-B38F-36B7EA23EEFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
